@@ -1,0 +1,285 @@
+body{
+    background: #f2f2f2;
+}
+#tp-page{
+    background-image: url(/assets/imges/sketch1674192602882.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.title h1{
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 60px auto 0
+}
+.title{
+    margin-top: calc(50vh - 10vh);
+}
+.phto{
+    width: 312px;
+    
+    object-position: 50% 0%;
+    margin: 5px auto;
+}
+.phto img{
+    width: 100%;
+}
+.bg-w{
+    background: #f7f7f7;
+    
+   padding: 0 30px;
+}
+.ttl{
+    margin-top: calc(25vh - 10vh);
+}
+.ttl h2{
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+    
+}
+.ttl h1{
+    margin-bottom: 0;
+    margin-top: 64px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.ttl p{
+    font-weight: 400;
+    line-height: 2;
+    margin: 20px 0 0;
+}
+.prg{
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 16px 0 0;
+}
+.obst{
+    background: blue;
+    color: #fff;
+}
+
+#so{
+    list-style: none;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+#so li{
+    display: inline-block;
+    margin: 0 12px;
+
+}
+#so a{
+    font-size: 23px;
+    color: #fff;
+}
+#so a:hover{
+   transition: all .3s;
+    color: red;
+}
+.lst-ftr span{
+    color: #fecca2;
+    font-weight: 400;
+}
+
+.imges{
+    width: 289px;
+    height: 398px;
+    margin-top: 200px;
+}
+.imges img{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    border: 20px solid blue;
+}
+.workplace h3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+}
+.workplace h1{
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+.box{
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    display: block;
+    transition: all.5s;
+}
+.box:hover img{
+    transform: scale(1.09);
+}
+.workplace p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.workplace p span{
+    border-bottom: 1px solid #000;
+}
+.bbt .btn{
+    text-align: center;
+    background: blue;
+    color: #fff;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 400;
+    background-image: none;
+    transition:  .4s;
+    border-style: none;
+    padding: 7px 27px;
+}
+.bbt .btn:hover{
+    background: rgb(70, 70, 238);
+}
+
+.imges2{
+    width: 289px;
+    height: 398px;
+    margin-bottom: 20px;
+}
+
+.imges2 img{
+    width: 100%;
+    display: block;
+    
+    border: 20px solid blue;
+}
+
+
+#Our_goals{
+    background: #fff;
+    padding: 10px 0;
+}
+#Our_goals h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 22px 1px 0;
+}
+#Our_goals .big{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 20px 0 0;
+}
+#Our_goals h4{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2
+}
+#Our_goals .ery  .praf{
+    color: #b3b3b3  
+}
+.ery hr{
+    margin: 10px 0;
+}
+
+
+.entits i{
+    font-size: 50px;
+    color: blue;
+}
+
+.utxt{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+   text-align: inherit;
+}
+
+.imges3{
+    width: 289px;
+    height: 398px;
+    margin-top: 50px;
+}
+
+.imges3 img{
+    width: 100%;
+    display: block;
+    border: 20px solid blue;
+}
+
+
+#mmrt{
+   margin-top: 100px;
+}
+
+.mmf ul li{
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 700;
+}
+.blue{
+    background: blue;
+   
+    color: #fff;
+}
+.blue ul li{
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 700;
+}
+.blue .utxt{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+   text-align: inherit;
+}
+
+.mmf a{
+    text-decoration: none;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #000;
+}
+.mmf .dds{
+    color: blue;
+}
+.mmf a:hover{
+    color: blue;
+}
+.blue a{
+    text-decoration: none;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #fff;
+}
+.blue a:hover{
+   color: rgb(196, 185, 236);
+}
+
+#fotter{
+    background: #333333;
+    color: #fff;
+}
+#fotter a{
+    color: #fff;
+    padding: 20px 0;
+}
+#fotter .lnks p{
+    font-size: 14px;
+}
+.lnks a:hover{
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+}
